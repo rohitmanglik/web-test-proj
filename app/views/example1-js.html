@@ -1,0 +1,19 @@
+Name:<input id="textInput" type="text"/>
+Hello <span id="nameDiv"></span>!
+
+<script>
+  //Native JS
+  /*var textInputElement = document.getElementById('textInput'),
+    nameDivElement = document.getElementById('nameDiv');
+  textInputElement.addEventListener('keyup', function () {
+    var text = textInputElement.value;
+    nameDivElement.innerHTML = text;
+  });
+*/
+
+  //Using jQuery
+  $('#textInput').on('keyup', function(){
+    $('#nameDiv').html($('#textInput').val());
+  });
+
+</script>

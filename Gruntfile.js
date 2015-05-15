@@ -380,6 +380,15 @@ module.exports = function (grunt) {
       ]
     },
 
+
+    modernizr: {
+      dist: {
+        // [REQUIRED] Path to the build you're using for development.
+        'devFile' : 'bower_components/modernizr/modernizr.js',
+        'outputFile' : 'bower_components/modernizr/modernizr-custom.js'
+      }
+    },
+
     // Test settings
     karma: {
       unit: {
@@ -398,6 +407,7 @@ module.exports = function (grunt) {
     grunt.task.run([
       'clean:server',
       'wiredep',
+      'modernizr',
       'concurrent:server',
       'autoprefixer:server',
       'connect:livereload',
@@ -413,6 +423,7 @@ module.exports = function (grunt) {
   grunt.registerTask('test', [
     'clean:server',
     'wiredep',
+    'modernizr',
     'concurrent:test',
     'autoprefixer',
     'connect:test',
@@ -422,6 +433,7 @@ module.exports = function (grunt) {
   grunt.registerTask('build', [
     'clean:dist',
     'wiredep',
+    'modernizr',
     'useminPrepare',
     'concurrent:dist',
     'autoprefixer',
@@ -441,4 +453,5 @@ module.exports = function (grunt) {
     'test',
     'build'
   ]);
+
 };
