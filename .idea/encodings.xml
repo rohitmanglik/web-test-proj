@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/.editorconfig" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/.jshintrc" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Gruntfile.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/README.md" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/scripts/app.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/scripts/controllers/example1.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/scripts/controllers/example2.js" charset="UTF-8" />
@@ -17,5 +20,6 @@
     <file url="file://$PROJECT_DIR$/app/views/main.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/bower.json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dist/views/help/example2-help.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/python/MyFirstProgramInPython.py" charset="UTF-8" />
   </component>
 </project>
