@@ -36,15 +36,15 @@ angular
       })
       .when('/example3', {
         templateUrl: '../views/example3.html',
-        controller: 'Example2'
+        controller: 'Example3'
       })
       .when('/example4', {
         templateUrl: '../views/example4.html',
-        controller: 'Example3'
+        controller: 'Example4'
       })
       .when('/example2', {
         templateUrl: '../views/example2.html',
-        controller: 'Example4'
+        controller: 'Example2'
       })
       .otherwise({
         redirectTo: '/'

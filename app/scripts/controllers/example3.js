@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('testingAngularApp')
-  .controller('Example2', function (/*$scope*/) {
+  .controller('Example3', function (/*$scope*/) {
 
     //Write code over here
 

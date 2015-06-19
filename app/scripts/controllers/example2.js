@@ -1,7 +1,7 @@
 (function () {
   'use strict';
   angular.module('testingAngularApp')
-    .controller('Example4', function ($scope) {
+    .controller('Example2', function ($scope) {
       $scope.names = [
         {item: '1', value: 'Parikshit'},
         {item: '2', value: 'Ishant'},
