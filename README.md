@@ -12,6 +12,14 @@ JSHint
 This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
 version 0.11.1.
 
+##Installation
+
+Install npm if you haven't already
+
+Run following commands in the project directory
+npm install -g grunt-cli bower yo generator-karma generator-angular
+npm install
+
 ## Build & development
 
 Run `grunt` for building and `grunt serve` for preview.
