@@ -16,7 +16,7 @@ public class Main {
     float f = 12;
     public static void main(String[] args) {
 
-        InterfaceImplement interfaceImplement = new InterfaceImplement().factoryTest();
+        InterfaceImplement interfaceImplement = new InterfaceImplement();//.factoryTest();
 
         Thread t1 = new Thread(new Runnable() {
             @Override

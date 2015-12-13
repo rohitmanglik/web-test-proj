@@ -42,7 +42,7 @@ class testing extends MyModal{
         super(empId, empName);
     }
 
-    @Override
+    //@Override
     public void method1(){
 
     }

@@ -6,5 +6,5 @@ package com.rohit.syntaxLearn;
 public class PrivateConstructor {
     private int a;
 
-    private PrivateConstructor() {}
+    //private PrivateConstructor() {}
 }

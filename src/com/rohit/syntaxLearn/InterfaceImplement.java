@@ -5,7 +5,7 @@ package com.rohit.syntaxLearn;
  */
 public class InterfaceImplement implements interface1 {
     static int a;
-    private InterfaceImplement() {}
+    //private InterfaceImplement() {}
 
     public static InterfaceImplement factoryTest(int b) {
         a = interface1.a;

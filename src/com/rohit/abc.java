@@ -6,8 +6,8 @@ package com.rohit;
 public class abc {
     public static void main(String[] args) {
         int a=9, b=-13, c=1;
-        int d= ++a || ++b && ++c;
-        cout<<a<<b<<c<<d;
+ //       int d= ++a || ++b && ++c;
+//        cout<<a<<b<<c<<d;
     }
 
 }
